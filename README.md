@@ -1,4 +1,4 @@
-![Logo](https://github.com/obheda12/MoneyScope/blob/main/Money%20Scope.png)
+![Logo](https://github.com/obheda12/MoneyScope/blob/main/MoneyScopeResized.png)
 # MoneyScope
 MoneyScope is a simple tool that pulls program scope data from a variety of sources, filters for all bug bounty scopes with an actual payout, and then filters again to remove any fluff/formatting issues in order to provide you with a succint scope of paying bounty domains and TLDs
 
@@ -24,14 +24,11 @@ To date MoneyScope pulls data from:
 The usage of MoneyScope is fairly simple. Specify a flag as specified in the usage guide and MoneyScope will pull data for relative to the flag you have specified within seconds.
 
 # Examples
-Pull Paid Bounty Data from All Sources
-``` ./MoneyScope.sh -a ```
+Pull Paid Bounty Data from All Sources ``` ./MoneyScope.sh -a ```
 
-Pull Paid Bounty Data from Bugcrowd and Hackerone Only
-``` ./MoneyScope.sh -bh ```
+Pull Paid Bounty Data from Bugcrowd and Hackerone Only ``` ./MoneyScope.sh -bh ```
 
-Pull Paid Bounty Data from YesWeHack, Hackerone, and Intigriti Only
-``` ./MoneyScope.sh -yhi ```
+Pull Paid Bounty Data from YesWeHack, Hackerone, and Intigriti Only ``` ./MoneyScope.sh -yhi ```
 
 # Output
 MoneyScope will output data from paying bounty programs into 2 text files in your current working directory. The first file will be all the domains from the scope you specified. The second file be all the TLDs extracted from the domains you gathered using the tool by @hakluke (https://github.com/hakluke/haktldextract).
