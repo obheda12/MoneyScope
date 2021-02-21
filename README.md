@@ -38,4 +38,4 @@ Pull Paid Bounty Data from YesWeHack, Hackerone, and Intigriti Only
 # Output
 MoneyScope will output data from paying bounty programs into 2 text files in your current working directory. The first file will be all the domains from the scope you specified. The second file be all the TLDs extracted from the domains you gathered using the tool by @hakluke (https://github.com/hakluke/haktldextract).
 
-
+[!Output](https://github.com/obheda12/MoneyScope/blob/main/MoneyScopeTerminalOutput.png)
