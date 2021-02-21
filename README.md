@@ -1,3 +1,4 @@
+![Logo](https://github.com/obheda12/MoneyScope/blob/master/MoneyScopeLogo.png)
 # MoneyScope
 MoneyScope is a simple tool that pulls program scope data from a variety of sources, filters for all bug bounty scopes with an actual payout, and then filters again to remove any fluff/formatting issues in order to provide you with a succint scope of paying bounty domains and TLDs
 
