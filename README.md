@@ -6,6 +6,7 @@ MoneyScope is a simple tool that pulls program scope data from a variety of sour
 Please install the following tools and have them in your /usr/bin folder prior to running MoneyScope:
 
 https://github.com/hakluke/haktldextract
+
 https://github.com/stedolan/jq
 
 If you do not have these tools installed, please run the install.sh script
