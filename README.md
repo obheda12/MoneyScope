@@ -8,6 +8,8 @@ Please install the following tools and have them in your /usr/bin folder prior t
 https://github.com/hakluke/haktldextract
 https://github.com/stedolan/jq
 
+If you do not have these tools installed, please run the install.sh script
+
 # Data Resources
 MoneyScope relies on the Chaos Project as well as the repository @Arkadiyt (https://github.com/arkadiyt/bounty-targets-data) which update their sources daily.
 
@@ -24,11 +26,14 @@ To date MoneyScope pulls data from:
 The usage of MoneyScope is fairly simple. Specify a flag as specified in the usage guide and MoneyScope will pull data for relative to the flag you have specified within seconds.
 
 # Examples
-Pull Paid Bounty Data from All Sources ``` ./MoneyScope.sh -a ```
+Pull Paid Bounty Data from All Sources 
+``` ./MoneyScope.sh -a ```
 
-Pull Paid Bounty Data from Bugcrowd and Hackerone Only ``` ./MoneyScope.sh -bh ```
+Pull Paid Bounty Data from Bugcrowd and Hackerone Only 
+``` ./MoneyScope.sh -bh ```
 
-Pull Paid Bounty Data from YesWeHack, Hackerone, and Intigriti Only ``` ./MoneyScope.sh -yhi ```
+Pull Paid Bounty Data from YesWeHack, Hackerone, and Intigriti Only 
+``` ./MoneyScope.sh -yhi ```
 
 # Output
 MoneyScope will output data from paying bounty programs into 2 text files in your current working directory. The first file will be all the domains from the scope you specified. The second file be all the TLDs extracted from the domains you gathered using the tool by @hakluke (https://github.com/hakluke/haktldextract).
